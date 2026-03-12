@@ -21,5 +21,5 @@ Admission Rate: 50%
 - Young Adult and Adult groups represent the largest portion of ER visits.
 - Approximately half of ER patients require hospital admission.
 
-## Dashboard
-![ER Dashboard](images/dashboard.png)
+## Dashboard Preview
+![ER Dashboard](Images/Dashboard.png)
