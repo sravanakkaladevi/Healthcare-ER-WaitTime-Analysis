@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 460" role="img" aria-labelledby="title">
+  <title>Monthly ER Visits</title>
+  <defs>
+    <linearGradient id="cardGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f7fb" />
+      <stop offset="100%" stop-color="#e8eef8" />
+    </linearGradient>
+  </defs>
+  <style>
+    .title { font: 700 24px Georgia, 'Times New Roman', serif; fill: #0f172a; }
+    .subtitle { font: 600 13px 'Segoe UI', Tahoma, sans-serif; fill: #475569; }
+    .label { font: 600 12px 'Segoe UI', Tahoma, sans-serif; fill: #334155; }
+    .axis { font: 11px 'Segoe UI', Tahoma, sans-serif; fill: #64748b; }
+    .value { font: 700 12px 'Segoe UI', Tahoma, sans-serif; fill: #0f172a; }
+    .grid { stroke: #d7e0ea; stroke-width: 1; stroke-dasharray: 4 6; }
+  </style>
+  <rect x="0" y="0" width="940" height="460" rx="28" fill="url(#cardGlow)" />
+  
+  <defs>
+    <linearGradient id="lineArea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.03" />
+    </linearGradient>
+  </defs>
+  <text class="title" x="42" y="48">Monthly ER Visits</text>
+  <text class="subtitle" x="42" y="76">Visit trend across the full available timeline</text>
+  <line class="grid" x1="70" y1="385.00" x2="895" y2="385.00" /><text class="axis" x="58" y="389.00" text-anchor="end">0</text><line class="grid" x1="70" y1="328.00" x2="895" y2="328.00" /><text class="axis" x="58" y="332.00" text-anchor="end">106</text><line class="grid" x1="70" y1="271.00" x2="895" y2="271.00" /><text class="axis" x="58" y="275.00" text-anchor="end">212</text><line class="grid" x1="70" y1="214.00" x2="895" y2="214.00" /><text class="axis" x="58" y="218.00" text-anchor="end">318</text><line class="grid" x1="70" y1="157.00" x2="895" y2="157.00" /><text class="axis" x="58" y="161.00" text-anchor="end">424</text><line class="grid" x1="70" y1="100.00" x2="895" y2="100.00" /><text class="axis" x="58" y="104.00" text-anchor="end">530</text>
+  <polygon points="70,385.00 70.00,127.42 115.83,126.89 161.67,112.91 207.50,135.49 253.33,119.36 299.17,132.80 345.00,119.90 390.83,135.49 436.67,122.05 482.50,109.14 528.33,153.24 574.17,112.91 620.00,132.80 665.83,105.92 711.67,124.20 757.50,122.58 803.33,100.00 849.17,134.42 895.00,131.73 895,385.00" fill="url(#lineArea)" />
+  <polyline points="70.00,127.42 115.83,126.89 161.67,112.91 207.50,135.49 253.33,119.36 299.17,132.80 345.00,119.90 390.83,135.49 436.67,122.05 482.50,109.14 528.33,153.24 574.17,112.91 620.00,132.80 665.83,105.92 711.67,124.20 757.50,122.58 803.33,100.00 849.17,134.42 895.00,131.73" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="70.00" cy="127.42" r="5.5" fill="#0f766e" stroke="#fff" stroke-width="2" /><text class="value" x="70.00" y="115.42" text-anchor="middle">479</text><circle cx="115.83" cy="126.89" r="5.5" fill="#f59e0b" stroke="#fff" stroke-width="2" /><circle cx="161.67" cy="112.91" r="5.5" fill="#2563eb" stroke="#fff" stroke-width="2" /><circle cx="207.50" cy="135.49" r="5.5" fill="#dc2626" stroke="#fff" stroke-width="2" /><circle cx="253.33" cy="119.36" r="5.5" fill="#7c3aed" stroke="#fff" stroke-width="2" /><circle cx="299.17" cy="132.80" r="5.5" fill="#059669" stroke="#fff" stroke-width="2" /><circle cx="345.00" cy="119.90" r="5.5" fill="#ea580c" stroke="#fff" stroke-width="2" /><circle cx="390.83" cy="135.49" r="5.5" fill="#475569" stroke="#fff" stroke-width="2" /><circle cx="436.67" cy="122.05" r="5.5" fill="#0f766e" stroke="#fff" stroke-width="2" /><circle cx="482.50" cy="109.14" r="5.5" fill="#f59e0b" stroke="#fff" stroke-width="2" /><circle cx="528.33" cy="153.24" r="5.5" fill="#2563eb" stroke="#fff" stroke-width="2" /><circle cx="574.17" cy="112.91" r="5.5" fill="#dc2626" stroke="#fff" stroke-width="2" /><circle cx="620.00" cy="132.80" r="5.5" fill="#7c3aed" stroke="#fff" stroke-width="2" /><circle cx="665.83" cy="105.92" r="5.5" fill="#059669" stroke="#fff" stroke-width="2" /><circle cx="711.67" cy="124.20" r="5.5" fill="#ea580c" stroke="#fff" stroke-width="2" /><circle cx="757.50" cy="122.58" r="5.5" fill="#475569" stroke="#fff" stroke-width="2" /><circle cx="803.33" cy="100.00" r="5.5" fill="#0f766e" stroke="#fff" stroke-width="2" /><text class="value" x="803.33" y="88.00" text-anchor="middle">530</text><circle cx="849.17" cy="134.42" r="5.5" fill="#f59e0b" stroke="#fff" stroke-width="2" /><circle cx="895.00" cy="131.73" r="5.5" fill="#2563eb" stroke="#fff" stroke-width="2" /><text class="value" x="895.00" y="119.73" text-anchor="middle">471</text>
+  <text class="axis" x="70.00" y="428" text-anchor="middle">Apr 2023</text><text class="axis" x="115.83" y="428" text-anchor="middle">May 2023</text><text class="axis" x="161.67" y="428" text-anchor="middle">Jun 2023</text><text class="axis" x="207.50" y="428" text-anchor="middle">Jul 2023</text><text class="axis" x="253.33" y="428" text-anchor="middle">Aug 2023</text><text class="axis" x="299.17" y="428" text-anchor="middle">Sep 2023</text><text class="axis" x="345.00" y="428" text-anchor="middle">Oct 2023</text><text class="axis" x="390.83" y="428" text-anchor="middle">Nov 2023</text><text class="axis" x="436.67" y="428" text-anchor="middle">Dec 2023</text><text class="axis" x="482.50" y="428" text-anchor="middle">Jan 2024</text><text class="axis" x="528.33" y="428" text-anchor="middle">Feb 2024</text><text class="axis" x="574.17" y="428" text-anchor="middle">Mar 2024</text><text class="axis" x="620.00" y="428" text-anchor="middle">Apr 2024</text><text class="axis" x="665.83" y="428" text-anchor="middle">May 2024</text><text class="axis" x="711.67" y="428" text-anchor="middle">Jun 2024</text><text class="axis" x="757.50" y="428" text-anchor="middle">Jul 2024</text><text class="axis" x="803.33" y="428" text-anchor="middle">Aug 2024</text><text class="axis" x="849.17" y="428" text-anchor="middle">Sep 2024</text><text class="axis" x="895.00" y="428" text-anchor="middle">Oct 2024</text>
+
+</svg>

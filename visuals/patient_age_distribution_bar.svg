@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" role="img" aria-labelledby="title">
+  <title>Patient Age Distribution</title>
+  <defs>
+    <linearGradient id="cardGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f7fb" />
+      <stop offset="100%" stop-color="#e8eef8" />
+    </linearGradient>
+  </defs>
+  <style>
+    .title { font: 700 24px Georgia, 'Times New Roman', serif; fill: #0f172a; }
+    .subtitle { font: 600 13px 'Segoe UI', Tahoma, sans-serif; fill: #475569; }
+    .label { font: 600 12px 'Segoe UI', Tahoma, sans-serif; fill: #334155; }
+    .axis { font: 11px 'Segoe UI', Tahoma, sans-serif; fill: #64748b; }
+    .value { font: 700 12px 'Segoe UI', Tahoma, sans-serif; fill: #0f172a; }
+    .grid { stroke: #d7e0ea; stroke-width: 1; stroke-dasharray: 4 6; }
+  </style>
+  <rect x="0" y="0" width="920" height="520" rx="28" fill="url(#cardGlow)" />
+  
+  <text class="title" x="42" y="48">Patient Age Distribution</text>
+  <text class="subtitle" x="42" y="76">Four age bands aligned to the Power BI chart counts</text>
+  <line class="grid" x1="72" y1="424.00" x2="884" y2="424.00" /><text class="axis" x="62" y="428.00" text-anchor="end">0</text><line class="grid" x1="72" y1="359.20" x2="884" y2="359.20" /><text class="axis" x="62" y="363.20" text-anchor="end">530</text><line class="grid" x1="72" y1="294.40" x2="884" y2="294.40" /><text class="axis" x="62" y="298.40" text-anchor="end">1,061</text><line class="grid" x1="72" y1="229.60" x2="884" y2="229.60" /><text class="axis" x="62" y="233.60" text-anchor="end">1,591</text><line class="grid" x1="72" y1="164.80" x2="884" y2="164.80" /><text class="axis" x="62" y="168.80" text-anchor="end">2,122</text><line class="grid" x1="72" y1="100.00" x2="884" y2="100.00" /><text class="axis" x="62" y="104.00" text-anchor="end">2,652</text>
+  <line x1="72" y1="424" x2="884" y2="424" stroke="#94a3b8" stroke-width="1.2" />
+  <rect x="103.50" y="100.00" width="140.00" height="324.00" rx="16" fill="#14b8a6" /><rect x="306.50" y="142.15" width="140.00" height="281.85" rx="16" fill="#14b8a6" /><rect x="509.50" y="144.71" width="140.00" height="279.29" rx="16" fill="#14b8a6" /><rect x="712.50" y="183.20" width="140.00" height="240.80" rx="16" fill="#14b8a6" />
+  <text class="axis" x="173.50" y="480" text-anchor="middle">Young Adult</text><text class="value" x="173.50" y="88.00" text-anchor="middle">2,652</text><text class="axis" x="376.50" y="480" text-anchor="middle">Senior</text><text class="value" x="376.50" y="130.15" text-anchor="middle">2,307</text><text class="axis" x="579.50" y="480" text-anchor="middle">Adult</text><text class="value" x="579.50" y="132.71" text-anchor="middle">2,286</text><text class="axis" x="782.50" y="480" text-anchor="middle">Child</text><text class="value" x="782.50" y="171.20" text-anchor="middle">1,971</text>
+
+</svg>
