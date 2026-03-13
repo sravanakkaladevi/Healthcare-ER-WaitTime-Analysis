@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 460" role="img" aria-labelledby="title">
+  <title>ER Patient Visits Trend Over Time</title>
+  <defs>
+    <linearGradient id="cardGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f7fb" />
+      <stop offset="100%" stop-color="#e8eef8" />
+    </linearGradient>
+  </defs>
+  <style>
+    .title { font: 700 24px Georgia, 'Times New Roman', serif; fill: #0f172a; }
+    .subtitle { font: 600 13px 'Segoe UI', Tahoma, sans-serif; fill: #475569; }
+    .label { font: 600 12px 'Segoe UI', Tahoma, sans-serif; fill: #334155; }
+    .axis { font: 11px 'Segoe UI', Tahoma, sans-serif; fill: #64748b; }
+    .value { font: 700 12px 'Segoe UI', Tahoma, sans-serif; fill: #0f172a; }
+    .grid { stroke: #d7e0ea; stroke-width: 1; stroke-dasharray: 4 6; }
+  </style>
+  <rect x="0" y="0" width="940" height="460" rx="28" fill="url(#cardGlow)" />
+  
+  <defs>
+    <linearGradient id="lineArea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.03" />
+    </linearGradient>
+  </defs>
+  <text class="title" x="42" y="48">ER Patient Visits Trend Over Time</text>
+  <text class="subtitle" x="42" y="76">Year-level totals matching the Power BI trend chart</text>
+  <line class="grid" x1="70" y1="385.00" x2="895" y2="385.00" /><text class="axis" x="58" y="389.00" text-anchor="end">0</text><line class="grid" x1="70" y1="328.00" x2="895" y2="328.00" /><text class="axis" x="58" y="332.00" text-anchor="end">976</text><line class="grid" x1="70" y1="271.00" x2="895" y2="271.00" /><text class="axis" x="58" y="275.00" text-anchor="end">1951</text><line class="grid" x1="70" y1="214.00" x2="895" y2="214.00" /><text class="axis" x="58" y="218.00" text-anchor="end">2927</text><line class="grid" x1="70" y1="157.00" x2="895" y2="157.00" /><text class="axis" x="58" y="161.00" text-anchor="end">3902</text><line class="grid" x1="70" y1="100.00" x2="895" y2="100.00" /><text class="axis" x="58" y="104.00" text-anchor="end">4878</text>
+  <polygon points="70,385.00 70.00,131.55 895.00,100.00 895,385.00" fill="url(#lineArea)" />
+  <polyline points="70.00,131.55 895.00,100.00" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="70.00" cy="131.55" r="5.5" fill="#0f766e" stroke="#fff" stroke-width="2" /><text class="value" x="70.00" y="119.55" text-anchor="middle">4338</text><circle cx="895.00" cy="100.00" r="5.5" fill="#f59e0b" stroke="#fff" stroke-width="2" /><text class="value" x="895.00" y="88.00" text-anchor="middle">4878</text>
+  <text class="axis" x="70.00" y="428" text-anchor="middle">2023</text><text class="axis" x="895.00" y="428" text-anchor="middle">2024</text>
+
+</svg>

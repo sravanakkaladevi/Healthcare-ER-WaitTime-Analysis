@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 456" role="img" aria-labelledby="title">
+  <title>Patients by Department</title>
+  <defs>
+    <linearGradient id="cardGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f7fb" />
+      <stop offset="100%" stop-color="#e8eef8" />
+    </linearGradient>
+  </defs>
+  <style>
+    .title { font: 700 24px Georgia, 'Times New Roman', serif; fill: #0f172a; }
+    .subtitle { font: 600 13px 'Segoe UI', Tahoma, sans-serif; fill: #475569; }
+    .label { font: 600 12px 'Segoe UI', Tahoma, sans-serif; fill: #334155; }
+    .axis { font: 11px 'Segoe UI', Tahoma, sans-serif; fill: #64748b; }
+    .value { font: 700 12px 'Segoe UI', Tahoma, sans-serif; fill: #0f172a; }
+    .grid { stroke: #d7e0ea; stroke-width: 1; stroke-dasharray: 4 6; }
+  </style>
+  <rect x="0" y="0" width="900" height="456" rx="28" fill="url(#cardGlow)" />
+  
+  <text class="title" x="42" y="48">Patients by Department</text>
+  <text class="subtitle" x="42" y="76">Matches the Power BI department chart and excludes no-referral visits</text>
+  <line x1="220" y1="391" x2="820" y2="391" stroke="#94a3b8" stroke-width="1.2" />
+  <line class="grid" x1="220.00" y1="95" x2="220.00" y2="391" /><text class="axis" x="220.00" y="415" text-anchor="middle">0</text><line class="grid" x1="340.00" y1="95" x2="340.00" y2="391" /><text class="axis" x="340.00" y="415" text-anchor="middle">368</text><line class="grid" x1="460.00" y1="95" x2="460.00" y2="391" /><text class="axis" x="460.00" y="415" text-anchor="middle">736</text><line class="grid" x1="580.00" y1="95" x2="580.00" y2="391" /><text class="axis" x="580.00" y="415" text-anchor="middle">1104</text><line class="grid" x1="700.00" y1="95" x2="700.00" y2="391" /><text class="axis" x="700.00" y="415" text-anchor="middle">1472</text><line class="grid" x1="820.00" y1="95" x2="820.00" y2="391" /><text class="axis" x="820.00" y="415" text-anchor="middle">1840</text>
+  <rect x="220" y="103.88" width="600.00" height="24.53" rx="12" fill="#0f766e" /><rect x="220" y="146.17" width="324.46" height="24.53" rx="12" fill="#f59e0b" /><rect x="220" y="188.45" width="90.00" height="24.53" rx="12" fill="#2563eb" /><rect x="220" y="230.74" width="80.87" height="24.53" rx="12" fill="#dc2626" /><rect x="220" y="273.02" width="62.93" height="24.53" rx="12" fill="#7c3aed" /><rect x="220" y="315.31" width="58.04" height="24.53" rx="12" fill="#059669" /><rect x="220" y="357.59" width="28.04" height="24.53" rx="12" fill="#ea580c" />
+  <text class="label" x="208" y="120.14" text-anchor="end">General Practice</text><text class="value" x="830.00" y="120.14">1,840</text><text class="label" x="208" y="162.43" text-anchor="end">Orthopedics</text><text class="value" x="554.46" y="162.43">995</text><text class="label" x="208" y="204.71" text-anchor="end">Physiotherapy</text><text class="value" x="320.00" y="204.71">276</text><text class="label" x="208" y="247.00" text-anchor="end">Cardiology</text><text class="value" x="310.87" y="247.00">248</text><text class="label" x="208" y="289.29" text-anchor="end">Neurology</text><text class="value" x="292.93" y="289.29">193</text><text class="label" x="208" y="331.57" text-anchor="end">Gastroenterology</text><text class="value" x="288.04" y="331.57">178</text><text class="label" x="208" y="373.86" text-anchor="end">Renal</text><text class="value" x="258.04" y="373.86">86</text>
+
+</svg>

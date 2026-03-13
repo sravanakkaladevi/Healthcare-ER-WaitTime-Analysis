@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title">
+  <title>Patient Age Group Distribution</title>
+  <defs>
+    <linearGradient id="cardGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f7fb" />
+      <stop offset="100%" stop-color="#e8eef8" />
+    </linearGradient>
+  </defs>
+  <style>
+    .title { font: 700 24px Georgia, 'Times New Roman', serif; fill: #0f172a; }
+    .subtitle { font: 600 13px 'Segoe UI', Tahoma, sans-serif; fill: #475569; }
+    .label { font: 600 12px 'Segoe UI', Tahoma, sans-serif; fill: #334155; }
+    .axis { font: 11px 'Segoe UI', Tahoma, sans-serif; fill: #64748b; }
+    .value { font: 700 12px 'Segoe UI', Tahoma, sans-serif; fill: #0f172a; }
+    .grid { stroke: #d7e0ea; stroke-width: 1; stroke-dasharray: 4 6; }
+  </style>
+  <rect x="0" y="0" width="900" height="420" rx="28" fill="url(#cardGlow)" />
+  
+  <text class="title" x="42" y="48">Patient Age Group Distribution</text>
+  <text class="subtitle" x="42" y="76">How visits are spread across six age ranges</text>
+  <line x1="220" y1="355" x2="820" y2="355" stroke="#94a3b8" stroke-width="1.2" />
+  <line class="grid" x1="220.00" y1="95" x2="220.00" y2="355" /><text class="axis" x="220.00" y="379" text-anchor="middle">0</text><line class="grid" x1="340.00" y1="95" x2="340.00" y2="355" /><text class="axis" x="340.00" y="379" text-anchor="middle">469</text><line class="grid" x1="460.00" y1="95" x2="460.00" y2="355" /><text class="axis" x="460.00" y="379" text-anchor="middle">938</text><line class="grid" x1="580.00" y1="95" x2="580.00" y2="355" /><text class="axis" x="580.00" y="379" text-anchor="middle">1407</text><line class="grid" x1="700.00" y1="95" x2="700.00" y2="355" /><text class="axis" x="700.00" y="379" text-anchor="middle">1876</text><line class="grid" x1="820.00" y1="95" x2="820.00" y2="355" /><text class="axis" x="820.00" y="379" text-anchor="middle">2345</text>
+  <rect x="220" y="104.10" width="361.54" height="25.13" rx="12" fill="#0f766e" /><rect x="220" y="147.43" width="210.32" height="25.13" rx="12" fill="#f59e0b" /><rect x="220" y="190.77" width="475.91" height="25.13" rx="12" fill="#2563eb" /><rect x="220" y="234.10" width="600.00" height="25.13" rx="12" fill="#dc2626" /><rect x="220" y="277.43" width="442.13" height="25.13" rx="12" fill="#7c3aed" /><rect x="220" y="320.77" width="268.14" height="25.13" rx="12" fill="#059669" />
+  <text class="label" x="208" y="120.67" text-anchor="end">Child (0-12)</text><text class="value" x="591.54" y="120.67">1,413 patients</text><text class="label" x="208" y="164.00" text-anchor="end">Teen (13-19)</text><text class="value" x="440.32" y="164.00">822 patients</text><text class="label" x="208" y="207.33" text-anchor="end">Young Adult (20-35)</text><text class="value" x="705.91" y="207.33">1,860 patients</text><text class="label" x="208" y="250.67" text-anchor="end">Adult (36-55)</text><text class="value" x="830.00" y="250.67">2,345 patients</text><text class="label" x="208" y="294.00" text-anchor="end">Senior (56-70)</text><text class="value" x="672.13" y="294.00">1,728 patients</text><text class="label" x="208" y="337.33" text-anchor="end">Elderly (71+)</text><text class="value" x="498.14" y="337.33">1,048 patients</text>
+
+</svg>

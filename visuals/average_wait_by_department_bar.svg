@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 504" role="img" aria-labelledby="title">
+  <title>Average Wait Time by Department</title>
+  <defs>
+    <linearGradient id="cardGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f7fb" />
+      <stop offset="100%" stop-color="#e8eef8" />
+    </linearGradient>
+  </defs>
+  <style>
+    .title { font: 700 24px Georgia, 'Times New Roman', serif; fill: #0f172a; }
+    .subtitle { font: 600 13px 'Segoe UI', Tahoma, sans-serif; fill: #475569; }
+    .label { font: 600 12px 'Segoe UI', Tahoma, sans-serif; fill: #334155; }
+    .axis { font: 11px 'Segoe UI', Tahoma, sans-serif; fill: #64748b; }
+    .value { font: 700 12px 'Segoe UI', Tahoma, sans-serif; fill: #0f172a; }
+    .grid { stroke: #d7e0ea; stroke-width: 1; stroke-dasharray: 4 6; }
+  </style>
+  <rect x="0" y="0" width="900" height="504" rx="28" fill="url(#cardGlow)" />
+  
+  <text class="title" x="42" y="48">Average Wait Time by Department</text>
+  <text class="subtitle" x="42" y="76">Mean wait time in minutes for each department grouping</text>
+  <line x1="220" y1="439" x2="820" y2="439" stroke="#94a3b8" stroke-width="1.2" />
+  <line class="grid" x1="220.00" y1="95" x2="220.00" y2="439" /><text class="axis" x="220.00" y="463" text-anchor="middle">0</text><line class="grid" x1="340.00" y1="95" x2="340.00" y2="439" /><text class="axis" x="340.00" y="463" text-anchor="middle">7</text><line class="grid" x1="460.00" y1="95" x2="460.00" y2="439" /><text class="axis" x="460.00" y="463" text-anchor="middle">15</text><line class="grid" x1="580.00" y1="95" x2="580.00" y2="439" /><text class="axis" x="580.00" y="463" text-anchor="middle">22</text><line class="grid" x1="700.00" y1="95" x2="700.00" y2="439" /><text class="axis" x="700.00" y="463" text-anchor="middle">29</text><line class="grid" x1="820.00" y1="95" x2="820.00" y2="439" /><text class="axis" x="820.00" y="463" text-anchor="middle">37</text>
+  <rect x="220" y="104.03" width="600.00" height="24.94" rx="12" fill="#0f766e" /><rect x="220" y="147.03" width="596.25" height="24.94" rx="12" fill="#f59e0b" /><rect x="220" y="190.03" width="584.18" height="24.94" rx="12" fill="#2563eb" /><rect x="220" y="233.03" width="576.36" height="24.94" rx="12" fill="#dc2626" /><rect x="220" y="276.03" width="575.38" height="24.94" rx="12" fill="#7c3aed" /><rect x="220" y="319.03" width="570.33" height="24.94" rx="12" fill="#059669" /><rect x="220" y="362.03" width="569.18" height="24.94" rx="12" fill="#ea580c" /><rect x="220" y="405.03" width="565.76" height="24.94" rx="12" fill="#475569" />
+  <text class="label" x="208" y="120.50" text-anchor="end">Neurology</text><text class="value" x="830.00" y="120.50">36.80 min</text><text class="label" x="208" y="163.50" text-anchor="end">Physiotherapy</text><text class="value" x="826.25" y="163.50">36.57 min</text><text class="label" x="208" y="206.50" text-anchor="end">Gastroenterology</text><text class="value" x="814.18" y="206.50">35.83 min</text><text class="label" x="208" y="249.50" text-anchor="end">Cardiology</text><text class="value" x="806.36" y="249.50">35.35 min</text><text class="label" x="208" y="292.50" text-anchor="end">No Referral</text><text class="value" x="805.38" y="292.50">35.29 min</text><text class="label" x="208" y="335.50" text-anchor="end">Orthopedics</text><text class="value" x="800.33" y="335.50">34.98 min</text><text class="label" x="208" y="378.50" text-anchor="end">General Practice</text><text class="value" x="799.18" y="378.50">34.91 min</text><text class="label" x="208" y="421.50" text-anchor="end">Renal</text><text class="value" x="795.76" y="421.50">34.70 min</text>
+
+</svg>

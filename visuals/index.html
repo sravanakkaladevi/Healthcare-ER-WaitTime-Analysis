@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Healthcare ER Dashboard Report</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --panel: rgba(255, 255, 255, 0.78);
+      --line: #d7e0ea;
+      --ink: #0f172a;
+      --muted: #475569;
+      --accent: #0f766e;
+      --accent-2: #2563eb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.16), transparent 30%),
+        radial-gradient(circle at top right, rgba(37, 99, 235, 0.16), transparent 28%),
+        linear-gradient(180deg, #fbfdff 0%, var(--bg) 100%);
+    }
+
+    .shell {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+
+    .hero {
+      padding: 28px;
+      border: 1px solid rgba(148, 163, 184, 0.28);
+      border-radius: 28px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.92), rgba(241,245,249,0.78));
+      box-shadow: 0 22px 50px rgba(15, 23, 42, 0.08);
+      backdrop-filter: blur(12px);
+    }
+
+    .eyebrow {
+      font-size: 12px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 4vw, 3.6rem);
+      line-height: 1.05;
+    }
+
+    .hero p {
+      margin: 14px 0 0;
+      max-width: 740px;
+      font-size: 1.02rem;
+      line-height: 1.65;
+      color: var(--muted);
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .metric-card {
+      padding: 18px;
+      border-radius: 20px;
+      background: var(--panel);
+      border: 1px solid rgba(148, 163, 184, 0.22);
+    }
+
+    .metric-label {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .metric-value {
+      margin-top: 6px;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .charts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    .chart-card {
+      margin: 0;
+      padding: 18px;
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.07);
+    }
+
+    .chart-card h2 {
+      margin: 0 0 14px;
+      font-size: 1rem;
+      color: var(--ink);
+    }
+
+    .chart-card img {
+      width: 100%;
+      display: block;
+      border-radius: 20px;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      background: #fff;
+    }
+
+    .footer-note {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow">Healthcare ER Analytics</div>
+      <h1>Python visuals aligned with the Power BI dashboard.</h1>
+      <p>
+        This report recreates the main dashboard KPIs and charts directly from the CSV data so the Python output
+        matches the Power BI view as closely as possible in totals, rounding, and chart categories.
+      </p>
+      <section class="metrics">
+        
+      <div class="metric-card">
+        <div class="metric-label">Total Patients</div>
+        <div class="metric-value">9,216</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-label">Average Wait Time</div>
+        <div class="metric-value">35.26</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-label">Maximum Wait Time</div>
+        <div class="metric-value">60</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-label">Admission Rate</div>
+        <div class="metric-value">50.04%</div>
+      </div>
+
+      </section>
+      <div class="footer-note">Open the SVG files directly or use this page as a quick Power BI-aligned summary.</div>
+    </section>
+    <section class="charts">
+      
+      <article class="chart-card">
+        <h2>ER patient visits trend over time</h2>
+        <img src="er_patient_visits_trend_line.svg" alt="ER patient visits trend over time" />
+      </article>
+
+      <article class="chart-card">
+        <h2>Patients by department</h2>
+        <img src="patients_by_department_bar.svg" alt="Patients by department" />
+      </article>
+
+      <article class="chart-card">
+        <h2>Patients by gender</h2>
+        <img src="patients_by_gender_donut.svg" alt="Patients by gender" />
+      </article>
+
+      <article class="chart-card">
+        <h2>Patient age distribution</h2>
+        <img src="patient_age_distribution_bar.svg" alt="Patient age distribution" />
+      </article>
+
+    </section>
+  </main>
+</body>
+</html>
